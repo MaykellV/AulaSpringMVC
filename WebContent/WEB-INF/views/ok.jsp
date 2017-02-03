@@ -7,6 +7,6 @@
 <title>Olá mundo</title>
 </head>
 <body>
-	<h1>Olá mundo com Spring mvc</h1>
+	<h1>Olá mundo com Spring mvc, Realizando primeira alteração para o GitHub</h1>
 </body>
 </html>
