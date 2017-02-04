@@ -4,15 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Formulario</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h3>Adicionando tarefas</h3>
-	<form action="adicionandoTarefa" method="post">
-		Descrição: </br>
-		<textarea name="descricao" rows="5" cols="100"></textarea> <br/>
-		
-			<input type="subimit" value="Adicionar">
-	</form>
+    Nova tarefa adicionada com sucesso!
 </body>
 </html>

@@ -1,12 +1,12 @@
 package br.com.caelum.tarefas.modelo;
 
-import java.util.Calendar;
+import java.util.Date;
 
 public class Tarefa {
 	private Long id;
 	private String descricao;
 	private boolean finalizado;
-	private Calendar dataFinalizacao;
+	private Date dataFinalizacao;
 	public Long getId() {
 		return id;
 	}
@@ -25,10 +25,10 @@ public class Tarefa {
 	public void setFinalizado(boolean finalizado) {
 		this.finalizado = finalizado;
 	}
-	public Calendar getDataFinalizacao() {
+	public Date getDataFinalizacao() {
 		return dataFinalizacao;
 	}
-	public void setDataFinalizacao(Calendar dataFinalizacao) {
+	public void setDataFinalizacao(Date dataFinalizacao) {
 		this.dataFinalizacao = dataFinalizacao;
 	}
 }
