@@ -2,9 +2,16 @@ package br.com.caelum.tarefas.modelo;
 
 import java.util.Date;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Tarefa {
 	private Long id;
+	
+	@NotNull(message="{tarefa.descricao.obrigatoria}")
+	@Size(min=5, message="{tarefa.descricao.tamanho}")
 	private String descricao;
+	
 	private boolean finalizado;
 	private Date dataFinalizacao;
 	public Long getId() {
